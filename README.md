@@ -1,4 +1,4 @@
-# Online Grocery Ordering Automation
+# Message Decoder (Bot Games - Automation Anywhere)
 
 Este projeto automatiza o processo de tradução de mensagens usando Selenium para interagir com o navegador e realizar traduções de texto.
 
