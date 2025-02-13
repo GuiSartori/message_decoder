@@ -21,6 +21,16 @@ login = os.getenv('login')
 senha = os.getenv('senha')
 
 def main():
+    '''
+    Executes the Message Decoder Challenge.
+
+    This function creates a log file, initializes the Selenium WebDriver (Edge), 
+    logs into the Automation Anywhere Community, captures text to be translated, 
+    opens a new tab for translation, inserts the translated text back into the 
+    original tab, submits the form, and logs the results.
+
+    Exceptions are caught and logged.
+    '''
     
     # Tries to create the log, open the web browser and start the Message Decoder Challenge
     try:
